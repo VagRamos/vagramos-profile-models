@@ -12,28 +12,106 @@
  body {
     background-color: #121214; 
 }
-/*
-a {
-    text-decoration: none;
+
+.container {
+    padding: 0rem 2rem;
+}
+
+#degrade-component {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-left: -2em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
+    align-items: center;
+    padding: 1rem;
 }
 
-img {
-    max-width: 100%;
-} */
+a {
+    color: #E1E1E6;
+    text-decoration: none;
+}
 
+nav a:hover {
+    text-shadow: 0 0 0.125rem #121214;
+    color: #eb6a2f;
+    transition: 0.25s;
+}
 
+nav ul:hover {
+    transform: scale(1.2);
+    transition: 0.25s;
+}
+
+.foto-perfil { 
+    padding: 1.25rem;
+    text-align: center;
+}
+
+section {
+    padding: 1em;
+    background-color: #e1e1e610;
+    border-radius: .5em;
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: medium;
+}
+
+h3 {
+    padding: 0.625rem;
+    font-weight: 500;
+    font-size: large;
+}
+
+section p {
+    text-align: left;
+    padding: 0.625rem;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.875rem;
+}
+
+footer a {
+    margin: 0.625rem;
+    text-align: center;
+}
+
+footer img {
+    padding: 0;
+}
+
+footer p {
+    margin-top: 0.125rem;
+}
+
+/* Telas Médias */
 @media screen and (min-width: 600px){
-
-body {
-    background-color: #121214; 
-}
 
 .container {
     padding: 0rem 12.5rem;
+}
+
+#degrade-component {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-left: -15em;
 }
 
 #bg-fade-yellow {
@@ -93,6 +171,13 @@ nav ul:hover {
     text-align: center;
 }
 
+section {
+    padding: 1em;
+    background-color: revert;
+    border-radius: .5em;
+    margin: 1em 0;
+}
+
 h1 {
     font-size: large;
 }
@@ -115,7 +200,6 @@ footer {
 }
 
 footer a {
-
     margin: 0.625rem;
     text-align: center;
 }
