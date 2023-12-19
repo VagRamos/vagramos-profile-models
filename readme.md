@@ -4,4 +4,4 @@
 
 <h2>Layout do Figma</h2>
 
-O layout do site foi elaborado utilizando o Figma, acompanhado estudos feitos na plataforma da Alura.
+O layout do site foi elaborado utilizando o Figma, acompanhando estudos feitos na plataforma da Alura.
