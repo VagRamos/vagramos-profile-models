@@ -1,88 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vagramos Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Perfil criado para portifólio online">
-    <meta name="keywords" content="Vagner, Vagner Ramos, Fullstack Web design">
+    <meta name="description" content="Portifólio online, Vagner.">
+    <meta name="keywords" content="Vagner, Vagner Ramos, Fullstack, Web design">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Vagner Ramos">
-    <meta property="og:image" content="https://vagramos.com.br/img/vagramos-thumbnail.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta property="og:image" content="https://vagramos.com.br/assets/vagramos-thumbnail.png">
+    <title>Vagner R.</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/vagicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/vagicon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        
-        <div id="degrade-component">
-            <img style="width: 100%;" src="img/component-menu.svg" alt="">
-        </div>
-        
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="html/projects.html">Projects</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="html/contact.html">Contact</a>
-                </li>
-            </ul>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html" target="_self" rel="noopener noreferrer">Home</a>
+            <a class="cabecalho__menu__link" href="about.html" target="_self" rel="noopener noreferrer">Sobre</a>
         </nav>
-
-        <header class="cabecalho">
-            <div class="foto-perfil">
-                <img src="../img/vag-profile-image.svg" alt="Profile image here">
-            </div>    
-        </header>
-
-        <main>
-            <section>
-                <h3>Vagner Ramos</h3>
-                <p>
-                    Olá, sou o Vagner, <strong>Analista de testes | QA</strong>  e <strong>Desenvolvedor Web Jr.</strong> em constante movimento e olhando por bons desafios!</br>
-                    Aqui você irá encontrar alguns projetos que desenvolvo e alguns estudos entre outros experimentos.</br>
-                    Esteja à vontade para contribuir, compartilhar dicas, experiências e deixar seus comentários e interagir!</br>
-                    Me encontre no <a href="https://linkedin.com/in/vagner-ramos" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a> ou veja meu <a href="https://github.com/vagramos" target="_blank" rel="noopener noreferrer"><strong>Github.</strong></a>
-                </p>
-            </section>
-            <section>
-                <h3>Hard Skills</h3>
-                <p>
-                    Construindo muita experiência como <strong>desenvolvedor web</strong> em trabalhos utilizando <strong>HTML, CSS, Bootstrap, Javascript, PHP, Symfony 5, Docker, Container, Git e Github</strong> e, também, como <strong>analista de testes|QA</strong> trabalhando com <strong>automatização de testes, BDD, gherkin, Cucumber, Appium</strong> aplicados em testes <strong>E2E</strong> em <strong>aplicativos mobile</strong> com uso da linguagem <strong>Ruby</strong>. E trabalhando em equipe, fazendo entregas de tasks utilizando sprints com <strong>Metodologia Ágil</strong>.
-                </p>
-            </section>
-            <section>
-                <h3>Soft Skills</h3>
-                <p>
-                    Com perfil investigativo, sempre inquieto a fim de buscar o entendimento em diversos assuntos, sejam técnicos ou não.
-                    Comunicativo, proativo, tentando sempre fazer a melhor pergunta com intuito de agregar mais valor nas discussões, análises, planejamentos e execuções de projetos.
-                    Com olhar observador e sempre atento às trocas de informações e aos detalhes, sempre querendo aprender de forma incremental.
-                </p>
-            </section>
-        </main>
-
-        <footer>
-            <a href="https://github.com/vagramos" target="blank" rel="noopener noreferrer">
-                <img src="../img/github-vag.svg" alt="Github Logo">
-                <p>Github</p>
-            </a>
-            <a href="https://linkedin.com/in/vagner-ramos" target="blank" rel="noopener noreferrer">
-                <img src="../img/linkedin-vag.svg" alt="Linkedin Logo">
-                <p>Linkedin</p>
-            </a>
-        </footer>
-    </div>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="texto-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Vagner Ramos, Software Developer com especialidade em Desenvolvimento Web. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__botoes" href="https://linkedin.com/in/vagner-ramos/" target="_blank">
+                    <img src="assets/linkedin-yellow.png" alt="Botão para Linkedin">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__botoes" href="https://github.com/vagramos" target="_blank">
+                    <img src="assets/github-yellow.png" alt="Botão para Linkedin">
+                    Github
+                </a>                
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="assets/perfil-portifolio.png" alt="foto de perfil de Vagner">
+    </main>    
+    <footer class="rodape">
+        <p>Desenvolvido por VagRamos.</p>
+    </footer>
 </body>
 </html>
