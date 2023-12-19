@@ -1,7 +1,7 @@
-<h1>Vagramos Profile's</h1>
+<h1>Portifólio Vagramos</h1>
 
-<img src="./img/vagramos-layout.png">
+<img src="assets/layout-figma.png">
 
-<h2>Layout model</h2>
+<h2>Layout do Figma</h2>
 
-A layout profile model, using HTML5 and CSS3.
+O layout do site elaborado no Figma.
